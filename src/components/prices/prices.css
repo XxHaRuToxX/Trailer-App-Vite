@@ -1,0 +1,835 @@
+.background-Color-Main {
+    width: 100vw;
+    height: 91vh;
+    background-color: #0c1e25;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-Color-secondary {
+    width: 100vw;
+    height: 91vh;
+    background-color: #fff;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pricing-container {
+    display: flex;
+    color: #fff;
+}
+
+.Pricing-option1,
+.Pricing-option2,
+.Pricing-option3 {
+    width: 30vw;
+    height: 63vh;
+    background-color: #000d13;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.light-Theme1,
+.light-Theme2,
+.light-Theme3 {
+    width: 30vw;
+    height: 63vh;
+    background-color: #29534e;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.Pricing-option1 h3,
+.Pricing-option2 h3,
+.Pricing-option3 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: #EE9B00;
+}
+
+.Price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.light-Theme1 h3,
+.light-Theme2 h3,
+.light-Theme3 h3 {
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.Pricing-option1 h2,
+.Pricing-option2 h2,
+.Pricing-option3 h2 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.light-Theme1 h2,
+.light-Theme2 h2,
+.light-Theme3 h2 {
+    color: #ff206e;
+    font-size: 3rem;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.Pricing-option1 span,
+.Pricing-option2 span,
+.Pricing-option3 span {
+    display: flex;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    font-weight: 300px;
+}
+
+#MonthlyYearly {
+    font-size: 1.4rem;
+}
+
+.light-Theme1 span,
+.light-Theme2 span,
+.light-Theme3 span {
+    display: flex;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    font-weight: 300px;
+    color: #fff;
+}
+
+#checkmark {
+    margin-right: 9px;
+}
+
+button {
+    width: 400px;
+    height: 6vh;
+    margin-left: 80px;
+    border: none;
+    border-radius: 7px;
+    background-color: #659664;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #588157;
+    transition: .4s;
+}
+
+#button1 {
+    margin-top: 98px;
+}
+
+#button2 {
+    margin-top: 55px;
+}
+
+#button3 {
+    margin-top: 12px;
+}
+
+#darktheme {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Pricing-yearly-darktheme {
+    position: relative;
+    margin-left: 250px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #413E44;
+    margin-right: 10px;
+}
+
+.Pricing-monthly-darktheme {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
+
+.Pricing-monthly-light {
+    position: absolute;
+    background-color: #fff;
+    left: 32px;
+    top: 4px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
+
+@media screen and (max-width: 1286px) {
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 30vw;
+        height: 85vh;
+        margin-top: 0px;
+    }
+
+    .light-Theme1 h2,
+    .light-Theme2 h2,
+    .light-Theme3 h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .light-Theme1 h3,
+    .light-Theme2 h3,
+    .light-Theme3 h3 {
+        font-size: 1.9rem;
+    }
+
+    .light-Theme1 span,
+    .light-Theme2 span,
+    .light-Theme3 span {
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 30vw;
+        height: 85vh;
+        margin-top: 0px;
+    }
+
+    .Pricing-option1 h2,
+    .Pricing-option2 h2,
+    .Pricing-option3 h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .Pricing-option1 h3,
+    .Pricing-option2 h3,
+    .Pricing-option3 h3 {
+        font-size: 1.9rem;
+    }
+
+    #MonthlyYearly {
+        font-size: 1.1rem;
+    }
+
+    .Pricing-option1 span,
+    .Pricing-option2 span,
+    .Pricing-option3 span {
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    #checkmark {
+        margin-right: 5px;
+    }
+
+    button {
+        width: 200px;
+        height: 6vh;
+        margin-left: 100px;
+        font-size: 1rem;
+    }
+
+    #button1 {
+        margin-top: 80px;
+    }
+
+    #button2 {
+        margin-top: 40px;
+    }
+
+    #button3 {
+        margin-top: 0px;
+    }
+    .Pricing-yearly-darktheme {
+        width: 60px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 23px;
+        height: 23px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 32px;
+        top: 4px;
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 27vw;
+        height: 80vh;
+        margin-top: 0px;
+    }
+
+    .light-Theme1 h2,
+    .light-Theme2 h2,
+    .light-Theme3 h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    .light-Theme1 h3,
+    .light-Theme2 h3,
+    .light-Theme3 h3 {
+        font-size: 1.2rem;
+    }
+
+    .light-Theme1 span,
+    .light-Theme2 span,
+    .light-Theme3 span {
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 27vw;
+        height: 80vh;
+        margin-top: 0px;
+    }
+
+    .Pricing-option1 h2,
+    .Pricing-option2 h2,
+    .Pricing-option3 h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    .Pricing-option1 h3,
+    .Pricing-option2 h3,
+    .Pricing-option3 h3 {
+        font-size: 1.2rem;
+    }
+
+    #MonthlyYearly {
+        font-size: 0.9rem;
+    }
+
+    .Pricing-option1 span,
+    .Pricing-option2 span,
+    .Pricing-option3 span {
+        font-size: 1rem;
+        margin-left: 30px;
+        padding-left: 5px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    #checkmark {
+        margin-right: 5px;
+    }
+
+    button {
+        width: 180px;
+        height: 6vh;
+        margin-left: 75px;
+        font-size: 0.9rem;
+    }
+    .Pricing-yearly-darktheme {
+        width: 50px;
+        height: 25px;
+        margin-right: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 27px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    button {
+        width: 150px;
+        height: 5vh;
+        margin-left: 79px;
+        font-size: 0.9rem;
+    }
+    .Pricing-yearly-darktheme {
+        width: 45px;
+        height: 25px;
+        margin-left: 200px;
+        margin-right: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 22px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .background-Color-secondary {
+        width: 100vw;
+        height: 100%;
+        padding: 20px;
+    }
+    .background-Color-Main {
+        width: 100vw;
+        height: 100%;
+        padding: 20px;
+    }
+    .Pricing-container {
+        width: 80vw;
+        color: #fff;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 35vw;
+        height: 40vh;
+        margin-top: 0px;
+    }
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 35vw;
+        height: 40vh;
+        margin-top: 0px;
+    }
+    button {
+        width: 180px;
+        height: 3vh;
+        margin-left: 95px;
+        font-size: 0.9rem;
+    }
+    .Pricing-yearly-darktheme {
+        width: 50px;
+        height: 25px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 27px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 35vw;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .light-Theme1 h2,
+    .light-Theme2 h2,
+    .light-Theme3 h2 {
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+
+    .light-Theme1 h3,
+    .light-Theme2 h3,
+    .light-Theme3 h3 {
+        font-size: 0.9rem;
+    }
+
+    .light-Theme1 span,
+    .light-Theme2 span,
+    .light-Theme3 span {
+        font-size: .9rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 35vw;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .Pricing-option1 h2,
+    .Pricing-option2 h2,
+    .Pricing-option3 h2 {
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+
+    .Pricing-option1 h3,
+    .Pricing-option2 h3,
+    .Pricing-option3 h3 {
+        font-size: 0.9rem;
+    }
+
+    .Pricing-option1 span,
+    .Pricing-option2 span,
+    .Pricing-option3 span {
+        font-size: 0.9rem;
+        margin-left: 30px;
+        padding-left: 5px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+    #checkmark {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    #MonthlyYearly {
+        font-size: 0.7rem;
+    }
+    button {
+        width: 180px;
+        height: 6vh;
+        margin-left: 75px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    button {
+        width: 150px;
+        height: 6vh;
+        margin-left: 70px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Pricing-container {
+        width: 50vw;
+    }
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 100vw;
+        height: 85vh;
+        margin-top: 0px;
+    }
+
+    .light-Theme1 h2,
+    .light-Theme2 h2,
+    .light-Theme3 h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .light-Theme1 h3,
+    .light-Theme2 h3,
+    .light-Theme3 h3 {
+        font-size: 1.9rem;
+    }
+
+    .light-Theme1 span,
+    .light-Theme2 span,
+    .light-Theme3 span {
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 100vw;
+        height: 85vh;
+        margin-top: 0px;
+    }
+
+    .Pricing-option1 h2,
+    .Pricing-option2 h2,
+    .Pricing-option3 h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .Pricing-option1 h3,
+    .Pricing-option2 h3,
+    .Pricing-option3 h3 {
+        font-size: 1.9rem;
+    }
+
+    #MonthlyYearly {
+        font-size: 1.1rem;
+    }
+
+    .Pricing-option1 span,
+    .Pricing-option2 span,
+    .Pricing-option3 span {
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    #checkmark {
+        margin-right: 5px;
+    }
+
+    button {
+        width: 200px;
+        height: 6vh;
+        margin-left: 85px;
+        font-size: 1rem;
+    }
+
+    #button1 {
+        margin-top: 80px;
+    }
+
+    #button2 {
+        margin-top: 40px;
+    }
+
+    #button3 {
+        margin-top: 0px;
+    }
+    .Pricing-yearly-darktheme {
+        width: 60px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 23px;
+        height: 23px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 32px;
+        top: 4px;
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 100vw;
+        height: 73vh;
+        margin-top: 0px;
+    }
+
+    .light-Theme1 h2,
+    .light-Theme2 h2,
+    .light-Theme3 h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+
+    .light-Theme1 h3,
+    .light-Theme2 h3,
+    .light-Theme3 h3 {
+        font-size: 1rem;
+    }
+
+    .light-Theme1 span,
+    .light-Theme2 span,
+    .light-Theme3 span {
+        font-size: .9rem;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+    }
+
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 100vw;
+        height: 73vh;
+        margin-top: 0px;
+    }
+
+    .Pricing-option1 h2,
+    .Pricing-option2 h2,
+    .Pricing-option3 h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+
+    .Pricing-option1 h3,
+    .Pricing-option2 h3,
+    .Pricing-option3 h3 {
+        font-size: 1rem;
+    }
+
+    #MonthlyYearly {
+        font-size: 0.9rem;
+    }
+
+    .Pricing-option1 span,
+    .Pricing-option2 span,
+    .Pricing-option3 span {
+        font-size: 0.9rem;
+        margin-left: 30px;
+        padding-left: 5px;
+        margin-bottom: 15px;
+        font-weight: 200px;
+        padding-right: 10px;
+    }
+
+    #checkmark {
+        margin-right: 5px;
+    }
+
+    button {
+        width: 150px;
+        height: 6vh;
+        margin-left: 85px;
+        font-size: 0.9rem;
+    }
+    .Pricing-yearly-darktheme {
+        width: 50px;
+        height: 25px;
+        margin-right: 5px;
+    }
+    .Pricing-monthly-darktheme {
+        left: 5px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .Pricing-monthly-light {
+        left: 27px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 100vw;
+        height: 75vh;
+        margin-top: 0px;
+    }
+    button {
+        width: 150px;
+        height: 6vh;
+        margin-left: 70px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    button {
+        width: 150px;
+        height: 6vh;
+        margin-left: 60px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    button {
+        width: 150px;
+        height: 6vh;
+        margin-left: 60px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 100vw;
+        height: 53vh;
+        margin-top: 0px;
+    }
+    button {
+        width: 150px;
+        height: 4vh;
+        margin-left: 60px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 394px) {}
+
+@media screen and (max-width: 360px) {
+    .light-Theme1,
+    .light-Theme2,
+    .light-Theme3 {
+        width: 100vw;
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .Pricing-option1,
+    .Pricing-option2,
+    .Pricing-option3 {
+        width: 100vw;
+        height: 60vh;
+        margin-top: 0px;
+    }
+}
